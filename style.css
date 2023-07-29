@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+button{
+    height: 100px;
+    width: 300px;
+    font-size: 100px;
+    background-color: black;
+    color: rgb(186, 159, 25);
+
+}
+
+button:active{
+    position: relative;
+    top: 1px;
+}
+.box{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(182, 193, 202);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+
+}
+
+.main{
+    margin: auto;
+    width: 300px;
+    margin-top: 100px;
+}

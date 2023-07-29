@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <button class="plus">+</button>
+        <div class="box">0</div>
+        <button class="minus">-</button>
+    </div>
+
+
+
+    <script>
+        const btn1 = document.querySelector('.plus');
+        const display = document.querySelector('.box');
+
+
+
+        let x = 0;
+
+        btn1.onclick = () => {
+            x++;
+            display.innerHTML = x;
+        }
+
+        const btn2 = document.querySelector('.minus');
+
+
+        btn2.onclick = () => {
+            x--;
+            display.innerHTML = x;
+        }
+    </script>
+</body>
+
+</html>
